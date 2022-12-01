@@ -25,6 +25,14 @@ python-versions = "*"
 beautifulsoup4 = "*"
 
 [[package]]
+name = "numpy"
+version = "1.23.5"
+description = "NumPy is the fundamental package for array computing with Python."
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[[package]]
 name = "soupsieve"
 version = "2.3.2.post1"
 description = "A modern CSS selector implementation for Beautiful Soup."
@@ -35,9 +43,10 @@ python-versions = ">=3.6"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "d8ca47f3517c4c810295c90deea99095e02286f2ec0751e5da8d327fa5472a5d"
+content-hash = "2259190dc5c775519db02b9b423f7a78eccbda68ddd40758c66dce57609357d9"
 
 [metadata.files]
 beautifulsoup4 = []
 bs4 = []
+numpy = []
 soupsieve = []
